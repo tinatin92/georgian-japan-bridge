@@ -138,3 +138,11 @@ ScrollReveal().reveal('.testimonial-box', {
     duration: 1000, 
     interval: 200 ,
 });
+
+ScrollReveal().reveal('.footer-img', { 
+    distance: '200px', 
+    origin: 'left', 
+    duration: 1000, 
+    opacity: 0, 
+   
+});
