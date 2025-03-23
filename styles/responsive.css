@@ -90,6 +90,10 @@
   .bank-text {
     padding: 0 0 100px 40px;
   }
+  .footer-row1 {
+    
+    padding: 60px 0;
+}
 }
 @media (max-width: 992px) {
   .hero-img {
@@ -259,6 +263,27 @@
 .news_text{
     width: 100%;
   }
+
+  .footer-contact {
+    flex-direction: column;
+
+  }
+  .contact-items  {
+    margin-top: 24px;
+  }
+  .contact-form,
+  .contact-info{
+    width: 100%;
+  }
+  .contact-form {
+    margin-top: 40px;
+  }
+  .footer-img {
+    display: none;
+  }
+  .footer-menu {
+    justify-content: flex-start;
+  }
 }
 @media screen and (max-width: 768px) {
   body {
@@ -336,6 +361,21 @@
     height: 35px;
 }
 
+.footer-logo h3{
+    font-size: 20px;
+
+}
+.footer-logo .footer-logo-img img {
+    width: 40px;
+    height: 40px;
+}
+.footer-menu div a {
+    font-size: 16px;
+}
+.footer-menu div{
+    width: 50%;
+    min-width: 100px;
+}
 }
 @media (max-width: 440px) {
     .rel-est_list-item img, .deal-list_list-item img, .hero-header img, .globe-list_item img {

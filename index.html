@@ -26,7 +26,7 @@
     <section class="hero-section">
       <div class="hero-header flex">
         <img src="assets/images/geo-icon.svg" alt="icon" />
-        <h1>Georgia - Japan Bridge</h1>
+        <h1 class="">Georgia - Japan Bridge</h1>
         <img src="assets/images/jap-icon.svg" alt="icon" />
       </div>
       <div class="hero-img">
@@ -400,29 +400,114 @@
     <footer>
       <div class="footer-row1">
         <div class="container">
-          
-            <div class="footer-contact">
-
-              <div class="contact-info">
-                <h2 class="h2">お問い合わせ</h2>
+          <div class="footer-contact">
+            <div class="contact-info">
+              <h2 class="h2">お問い合わせ</h2>
+              <div class="contact-items">
                 <div class="contact-item">
                   <div>Phone:</div>
                   <div>402224927</div>
                 </div>
-              </div>
-              
-              <div class="contact-form">
-                <form action="">
-                  <div>
-                    <label for=""></label>
-                    <input type="text" />
-                  </div>
-                </form>
+                <div class="contact-item">
+                  <div>Address:</div>
+                  <div>10 Shalva Ghambashidze street</div>
+                </div>
+                
+                <div class="contact-item">
+                  <div>Email:</div>
+                  <div>georgia.japan.bridge@gmail.com</div>
+                </div>
               </div>
             </div>
-        
+
+            <div class="contact-form">
+              <form class="form" action="">
+                <div class="form-input">
+                  <label for="">Name</label>
+                  <input type="text" />
+                </div>
+                <div class="form-input">
+                  <label for="">Email</label>
+                  <input type="email" />
+                </div>
+                <div class="form-input">
+                  <label for="">Phone</label>
+                  <input type="text" />
+                </div>
+                <div class="form-input select">
+                  <label for="">Subject</label>
+                  <select name="subject" id="subject">
+                    <option value="travel">Travel</option>
+                    <option value="education">Education</option>
+                    <option value="jlpt">JLPT</option>
+                  </select>
+                </div>
+                <div class="form-input textarea">
+                  <label for="">Message</label>
+                  <textarea name="message" id="message"></textarea>
+                </div>
+
+                <div class="form-input">
+                  <label for="">Desired reply date and time (optional)</label>
+                  <input type="date" />
+                </div>
+
+                <div class="radiobuttons">
+                  <div class="radiobutton-header">
+                    Preferred contact method (optional)
+                  </div>
+                  <div class="form-radio">
+                    <input type="radio" />
+                    <label for="">Response by email</label>
+                  </div>
+                  <div class="form-radio">
+                    <input type="radio" />
+                    <label for="">Online counseling (charge: $80/hour)</label>
+                  </div>
+                </div>
+
+                <div class="form-input">
+                  <label for="">File attachment (optional)</label>
+                  <input type="file" />
+                </div>
+
+                <button>send</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-row2">
+        <div class="container">
+          <div class="footer-menu">
+            <div>
+              <a href="#">About us</a>
+              <a href="#">About us</a>
+              <a href="#">About us</a>
+              <a href="#">About us</a>
+            </div>
+            <div>
+              <a href="#">About us</a>
+              <a href="#">About us</a>
+              <a href="#">About us</a>
+              <a href="#">About us</a>
+            </div>
+          </div>
+
+          <div class="footer-logo">
+            <img class="footer-img" src="assets/images/Frame 38.png" alt="">
+            <h3>Georgian -Japan Gridge</h3>
+            <div class="footer-logo-img">
+              <img src="assets/images/logo.svg" alt="footer logo">
+            </div>
+          </div>
         </div>
       </div>
     </footer>
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="scripts/script.js"></script>
   </body>
 </html>
