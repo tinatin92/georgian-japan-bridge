@@ -92,6 +92,9 @@ body {
     max-width: 1560px;
   }
 } */
+ img {
+  max-width: 100%;
+ }
 
 .container {
   width: 100%;
@@ -101,7 +104,7 @@ body {
   margin-left: auto;
 }
 .h2 {
-  font-size: 80px;
+  font-size: 60px;
   font-weight: 500;
   line-height: 120%;
 }
@@ -137,10 +140,11 @@ body {
 .hero-header {
   justify-content: center;
   align-items: center;
-  padding: 24px 0;
+  padding: 24px 20px;
 }
 .hero-header h1 {
   font-size: 68px;
+  line-height: 120%;
   font-weight: 500;
   text-transform: uppercase;
   margin: 0 12px;
@@ -257,6 +261,9 @@ body {
 }
 .okudzava-text {
   width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .okudzava-text_img {
   width: 100%;
@@ -268,7 +275,7 @@ body {
   object-fit: cover;
 }
 .okudzava-text_text {
-  margin-top: 208px;
+ margin-bottom: 100px;
   padding: 0 300px 0 0;
 }
 .rel-est {
@@ -307,6 +314,7 @@ body {
   display: flex;
   align-items: center;
   gap: 16px;
+  padding: 0 16px 0 0;
 }
 .rel-est_icon {
   position: absolute;
@@ -353,6 +361,7 @@ body {
   flex-direction: column;
   justify-content: flex-end;
   padding: 0 0 100px 80px;
+  width: 35%;
 }
 .bank-text h2 {
   color: var(--red);
@@ -372,6 +381,7 @@ body {
   align-items: center;
   gap: 16px;
   color: var(--red);
+  max-width: 300px;
 }
 .bank-list_item img {
   width: 48px;
@@ -472,6 +482,7 @@ body {
   align-items: end;
   margin: 40px 0 150px 0;
   color: var(--white);
+  gap: 12px;
 }
 
 .peko2-img3 {
@@ -494,18 +505,23 @@ body {
 .globe .h2 {
   color: var(--white);
   margin-top: 40px;
+  max-width: 700px;
 }
 
 .globe-list {
   display: flex;
-  align-items: center;
+flex-direction: column;
+  
   gap: 16px;
   margin-top: 160px;
+  width: 60%;
+ 
 }
 .globe-list_item {
   display: flex;
   align-items: center;
   gap: 16px;
+  
 }
 
 .globe-icon {
@@ -577,7 +593,12 @@ body {
   position: relative;
   padding: 50px 0 0 50px;
 }
-
+.news__image{
+  width: 50%;
+}
+.news_text{
+  width: 50%;
+}
 .news .news-box:nth-child(even) {
   flex-direction: row-reverse;
 }

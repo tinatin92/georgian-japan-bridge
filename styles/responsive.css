@@ -1,7 +1,386 @@
-@media (max-width: 1620px){}
-@media (max-width: 1400px){}
-@media (max-width: 1200px){}
-@media (max-width: 992px) {}
-@media screen and (max-width: 768px) {}
-@media (max-width: 576px) {}
-@media (max-width: 440px) {}
+@media (max-width: 1620px) {
+  .container {
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+  .h2 {
+    font-size: 60px;
+  }
+  .okadzava-image_text h3 {
+    font-size: 40px;
+  }
+  .about-us_header h2 {
+    font-size: 68px;
+  }
+}
+@media (max-width: 1400px) {
+  body {
+    font-size: 20px;
+  }
+  .hero-header h1 {
+    font-size: 60px;
+  }
+  .about-us__text {
+    padding: 0 20px 50px 100px;
+  }
+  .about-us_header h2 {
+    font-size: 60px;
+  }
+  .okudzava-text_text {
+    padding: 0 100px 0 0;
+  }
+  .okudzava-img {
+    padding: 0px 80px 100px 50px;
+  }
+  .h2 {
+    font-size: 48px;
+  }
+  .text-36 {
+    font-size: 28px;
+  }
+  .deal-img img {
+    margin-top: 50px;
+  }
+  .peko-icon {
+    width: 700px;
+  }
+  .globe-icon {
+    width: 700px;
+    margin-left: -300px;
+  }
+  .margin-40 {
+    margin: 40px 0;
+  }
+}
+@media (max-width: 1200px) {
+  .container {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+  .h2 {
+    font-size: 40px;
+  }
+  .hero-header h1 {
+    font-size: 48px;
+  }
+  .hero-img {
+    height: 500px;
+  }
+  .header {
+    padding: 0;
+  }
+  .about-us__text {
+    padding: 0 20px 50px 50px;
+  }
+  .okudzava-img .image {
+    width: 100%;
+  }
+  .okadzava-image_text div {
+    font-size: 18px;
+  }
+  .okudzava-img {
+    padding: 0px 80px 100px 40px;
+  }
+  .bank-icon {
+    top: 30%;
+  }
+  .bank-list_item {
+    max-width: 300px;
+  }
+  .bank-text {
+    padding: 0 0 100px 40px;
+  }
+}
+@media (max-width: 992px) {
+  .hero-img {
+    height: 300px;
+  }
+  .about-us_img {
+    width: 100%;
+    height: 400px;
+  }
+  .flex-col {
+    flex-direction: column;
+  }
+  .about-us__text {
+    width: 100%;
+    order: 2;
+    padding: 20px 100px 50px 100px;
+  }
+  .about-us_header h2 {
+    font-size: 40px;
+  }
+  .about-us_header span {
+    font-size: 40px;
+  }
+  .okudzava-text_img {
+    display: none;
+  }
+  .okudzava-img {
+    width: 100%;
+    padding: 0px 40px 40px 40px;
+  }
+  .okudzava-text {
+    width: 100%;
+    padding: 20px 100px 50px 40px;
+  }
+  .okudzava-text_text {
+    margin-bottom: 0;
+  }
+  .rel-est .image {
+    width: 100%;
+  }
+  .rel-est_icon {
+    display: none;
+  }
+  .rel-est .text {
+    width: 100%;
+  }
+  .rel-est .text .text-36 {
+    font-size: 24px;
+    margin: 20px 0 20px 0;
+  }
+  .bank-icon {
+    display: none;
+  }
+  .bank-images {
+    width: 100%;
+  }
+  .bank-text h2 {
+    position: relative;
+    top: 0;
+    right: 0;
+    margin: 20px 0;
+  }
+  .bank-text {
+    width: 100%;
+    padding: 0;
+  }
+  .bank {
+    padding: 40px 0;
+  }
+  .deal {
+    padding: 40px 0;
+  }
+  .deal-img {
+    width: 100%;
+  }
+  .deal-img img {
+    margin-top: 20px;
+  }
+  .deal-list {
+    padding: 20px 0 0 0px;
+  }
+  .peko1 {
+    width: 100%;
+  }
+  .peko2 {
+    width: 100%;
+    padding: 0;
+  }
+  .peko-list {
+    margin: 40px 0 40px 0;
+  }
+  .peko-icon {
+    display: none;
+  }
+  .peko2-flex {
+    gap: 12px;
+  }
+  .peko2-flex {
+    margin: 40px 0 50px 0;
+  }
+  .globe-icon {
+    width: 100%;
+  }
+  .globe-img {
+    display: none;
+  }
+  .globe-list {
+    margin-top: 40px;
+  }
+  .tours {
+    flex-direction: column;
+  }
+  .tours-1,
+  .tours-2 {
+    width: 100%;
+  }
+  .news {
+    flex-direction: column;
+    gap: 80px;
+  }
+  .news__image {
+    width: 100%;
+    overflow: hidden;
+  }
+  .news__image img {
+    width: 100%;
+  }
+  .news-box {
+    flex-direction: column;
+  }
+  .news .news-box:nth-child(even) {
+    flex-direction: column;
+  }
+  .news .news-box:nth-child(even) .news_text::after {
+    display: none;
+  }
+  .news_text {
+    padding: 0;
+  }
+  .news .news-box:nth-child(odd) .news_text::after {
+    display: none;
+  }
+  .testimonial-box:nth-child(even) img,
+  .testimonial-box img {
+    width: 100px;
+  }
+  .testimonial-box:nth-child(even) {
+    margin: 0;
+  }
+  .testimonial-box:nth-child(odd) {
+    margin: 0;
+  }
+  .testimonials {
+    gap: 80px;
+  }
+  .testimonial-box {
+    width: 80%;
+  }
+  .rel-est .text {
+    padding: 40px 0;
+  }
+  .news__image {
+    width: 100%;
+    overflow: hidden;
+    height: 400px;
+}
+.news_text{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .hero-header h1 {
+    font-size: 28px;
+  }
+
+  .okudzava-text_text {
+    padding: 0 00px 0 0;
+  }
+  .okudzava-text {
+    padding: 20px 40px 20px 40px;
+  }
+  .rel-est_list-item img,
+  .deal-list_list-item img,
+  .hero-header img,
+  .globe-list_item img {
+    width: 50px;
+  }
+  .rel-est_list {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .about-us__text {
+    padding: 20px 40px 40px 40px;
+  }
+  .rel-est .image {
+    
+    height: 400px;
+}
+.rel-est_list-item {
+    width: 100%;
+}
+.globe-icon {
+    
+   margin-left: 0;
+}
+}
+@media (max-width: 576px) {
+  .about-us_header {
+    padding: 50px 20px;
+  }
+  .about-us_header h2,
+  .about-us_header span {
+    font-size: 28px;
+  }
+  .okadzava-image_text h3 {
+    font-size: 24px;
+  }
+
+  .okadzava-image_text {
+    padding: 24px 48px;
+    gap: 16px;
+  }
+  .deal-img .h2 {
+    margin-left: 0px;
+}
+.peko2-flex{
+    flex-direction: column;
+}
+.peko2-flex div{
+    width: 100%;
+}
+.hero-header h1 {
+    font-size: 26px;
+}
+.bank-list_item img, .peko-list_item img {
+    width: 35px;
+    height: 35px;
+}
+
+}
+@media (max-width: 440px) {
+    .rel-est_list-item img, .deal-list_list-item img, .hero-header img, .globe-list_item img {
+        width: 35px;
+    }
+    .logo {
+        width: 60px;
+        height: 60px;
+        overflow: hidden;
+    }
+    .about-us__text {
+        padding: 20px;
+    }
+    .okadzava-image_text {
+        padding:  12px;
+        gap: 16px;
+        margin-top: -6px;
+    }
+    .h2 {
+        font-size: 28px;
+    }
+    .rel-est .text .text-36 {
+        font-size: 20px;
+    }
+    .pekopeko {
+        
+        padding: 40px 0;
+    }
+    .globe .h2 {
+       
+        margin-top: 20px;
+       
+    }
+    .globe {
+        padding: 0 0 40px 0;
+    }
+    .news-box h3 {
+        font-size: 20px;
+      
+    }
+    .testimonial-box {
+        width: 100%;
+    }
+    .testimonial-box img {
+        
+        left: -13px;
+    }
+}
