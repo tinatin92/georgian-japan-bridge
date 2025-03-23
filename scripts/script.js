@@ -142,7 +142,7 @@ ScrollReveal().reveal('.testimonial-box', {
 ScrollReveal().reveal('.footer-img', { 
     distance: '200px', 
     origin: 'left', 
-    duration: 1000, 
+    duration: 2000, 
     opacity: 0, 
    
 });
