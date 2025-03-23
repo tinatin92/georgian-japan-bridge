@@ -258,7 +258,7 @@
   .news__image {
     width: 100%;
     overflow: hidden;
-    height: 400px;
+    height: auto;
 }
 .news_text{
     width: 100%;
@@ -422,5 +422,9 @@
     .testimonial-box img {
         
         left: -13px;
+    }
+    .contact-item {
+      gap: 10px;
+      font-size: 16px;
     }
 }
