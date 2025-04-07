@@ -53,6 +53,9 @@
   }
 }
 @media (max-width: 1200px) {
+  .burger-menu, .burger-overlay {
+    top: 100px;
+  }
   .container {
     padding-right: 40px;
     padding-left: 40px;
@@ -96,6 +99,10 @@
 }
 }
 @media (max-width: 992px) {
+  .burger-menu {
+    width: 100%;
+  }
+
   .hero-img {
     height: 300px;
   }
@@ -378,6 +385,11 @@
 }
 }
 @media (max-width: 440px) {
+  .burger-menu {
+    top: 60px;
+    padding: 40px;
+    gap: 16px;
+  }
     .rel-est_list-item img, .deal-list_list-item img, .hero-header img, .globe-list_item img {
         width: 35px;
     }

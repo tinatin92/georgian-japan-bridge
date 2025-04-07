@@ -1,4 +1,24 @@
+const burgerIcon = document.querySelector('.burger-icon');
+const burgerMenu = document.querySelector('.burger-menu');
+const burgerOverlay = document.querySelector('.burger-overlay');
+const navLinks = document.querySelectorAll('.burger-menu a');
 
+burgerIcon.addEventListener('click', () => {
+  burgerMenu.classList.toggle('active');
+  burgerOverlay.classList.toggle('active');
+});
+
+navLinks.forEach(link => {
+  link.addEventListener('click', () => {
+    burgerMenu.classList.remove('active');
+    burgerOverlay.classList.remove('active'); 
+  });
+});
+
+burgerOverlay.addEventListener('click', () => {
+  burgerMenu.classList.remove('active');
+  burgerOverlay.classList.remove('active'); 
+});
 
 ScrollReveal().reveal('.hero-header', { 
     opacity: 0, 
