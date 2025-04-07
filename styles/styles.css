@@ -831,6 +831,7 @@ flex-direction: column;
   height: 6px;
   background-color: var(--red);
   border-radius: 12px;
+  transition-duration: .3s;
 }
 
 .header .container {
@@ -860,7 +861,7 @@ flex-direction: column;
 .burger-menu a {
   text-decoration: none;
   color: #222222;
-  transition-duration: .3s;
+  transition-duration: .6s;
 }
 .burger-menu a:hover{
   color: var(--red);
@@ -883,3 +884,15 @@ flex-direction: column;
   pointer-events: auto;
 }
 
+.burger-icon.active div:nth-child(1) {
+  transform: translateY(12px) rotate(45deg);
+}
+
+.burger-icon.active div:nth-child(2) {
+  transform: scale(0);
+  opacity: 0;
+}
+
+.burger-icon.active div:nth-child(3) {
+  transform: translateY(-11px) rotate(-45deg);
+}

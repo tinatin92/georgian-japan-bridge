@@ -3,7 +3,9 @@ const burgerMenu = document.querySelector('.burger-menu');
 const burgerOverlay = document.querySelector('.burger-overlay');
 const navLinks = document.querySelectorAll('.burger-menu a');
 
+
 burgerIcon.addEventListener('click', () => {
+    burgerIcon.classList.toggle('active');
   burgerMenu.classList.toggle('active');
   burgerOverlay.classList.toggle('active');
 });
