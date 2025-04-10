@@ -896,3 +896,18 @@ flex-direction: column;
 .burger-icon.active div:nth-child(3) {
   transform: translateY(-11px) rotate(-45deg);
 }
+
+.header_options{
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+#lang {
+  padding: 8px;
+  border: 1px solid var(--red);
+  border-radius: 8px;
+  color: var(--red);
+}
+#lang:focus{
+  outline: 2px solid var(--red);
+}
